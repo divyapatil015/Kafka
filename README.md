@@ -28,16 +28,7 @@ This is a **practice project** that demonstrates the integration of **Apache Kaf
 - Maven installed
 - Set JAVA_HOME and add Maven/Kafka bin folders to your system PATH
 
-### Running Kafka (on Windows)
-
-If you have downloaded Kafka:
-
-```cmd
-:: Start Zookeeper
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-
-:: Open a new terminal and start Kafka
-.\bin\windows\kafka-server-start.bat .\config\server.properties
+###Structure
 src/
 ├── controller/
 │   └── KafkaController.java
@@ -46,3 +37,13 @@ src/
 │   └── KafkaConsumerService.java
 └── config/
     └── KafkaConfig.java
+
+
+### Running Kafka (on Windows)
+
+```cmd
+:: Start Zookeeper
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+:: Open a new terminal and start Kafka
+.\bin\windows\kafka-server-start.bat .\config\server.properties
