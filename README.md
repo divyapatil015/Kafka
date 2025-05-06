@@ -10,9 +10,7 @@ This is a **practice project** that demonstrates the integration of **Apache Kaf
 - Apache Kafka
 - Maven
 - Postman (for testing)
-- Swagger (API documentation)
-- Spring Tool Suite (STS) / Eclipse
-- MySQL (optional, if used for additional data persistence)
+- Spring Tool Suite (STS)
 
 ## 📌 Features
 
