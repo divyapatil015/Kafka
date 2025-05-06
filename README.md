@@ -28,16 +28,6 @@ This is a **practice project** that demonstrates the integration of **Apache Kaf
 - Maven installed
 - Set JAVA_HOME and add Maven/Kafka bin folders to your system PATH
 
-###Structure
-src/
-├── controller/
-│   └── KafkaController.java
-├── service/
-│   ├── KafkaProducerService.java
-│   └── KafkaConsumerService.java
-└── config/
-    └── KafkaConfig.java
-
 
 ### Running Kafka (on Windows)
 
@@ -47,3 +37,13 @@ src/
 
 :: Open a new terminal and start Kafka
 .\bin\windows\kafka-server-start.bat .\config\server.properties
+
+###Structure
+src/
+├── controller/
+│   └── KafkaController.java
+├── service/
+│   ├── KafkaProducerService.java
+│   └── KafkaConsumerService.java
+└── config/
+    └── KafkaConfig.java
